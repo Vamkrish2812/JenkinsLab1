@@ -1,8 +1,8 @@
 #this is a simple flask Application that prints hello world!
 
-import flask
+import Flask
 
-app = flask(__name__)
+app = Flask(__name__)
 
 @app.route("/")
 
