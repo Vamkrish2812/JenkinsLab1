@@ -1,6 +1,6 @@
 #this is a simple flask Application that prints hello world!
 
-import Flask
+from flask import Flask
 
 app = Flask(__name__)
 
